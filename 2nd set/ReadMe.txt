@@ -7,8 +7,8 @@ graph coloring ώστε να καθορίστεί η λειτουργικότη�
 
 Τα σύμβολα και αντίστοιχες τάσεις και ρεύματα έχουν ως εξής:
 
-![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/transistors.png)
+![alt text]https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/transistors.png
 
-![alt text]https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/transistors.png?raw=true)
+![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/transistors.png?raw=true)
 
 ![plot](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/transistors.png)
