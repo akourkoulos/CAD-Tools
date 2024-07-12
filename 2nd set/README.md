@@ -101,7 +101,7 @@ U4 NMOS 3 5 6
 \#\# END_SIMULATION  
 
 
-![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/(ΑΒ + C)'.png)
+![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/(ΑΒ+C)'.png)
 \#\# RAILS
 VCC 7 ; GND 2
 \#\# INPUTS
