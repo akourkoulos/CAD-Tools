@@ -68,7 +68,7 @@ U[000-999],{NMOS,PMOS},{GATE_NODE},{P_SOURCE_NODE/N_DRAIN_NODE}, {P_DRAIN_NODE/N
 To αριστερό κύκλωμα είναι η γνωστή NOR, δηλαδή η συνάρτηση (Α+Β)’ ενώ το δεξί είναι η συνάρτηση (ΑΒ + C)’. Τα κυκλώματα αυτά δεν έχουν σφάλματα (π.χ. θα μπορούσε να υπάρχει κάποιο βραχυκύκλωμα). Τα αντίστοιχα αρχεία εισόδου είναι:
 
 
-![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/NOR.png)
+![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/NOR.png)  
 \#\# RAILS  
 VCC 1 ; GND 6  
 \#\# INPUTS  
@@ -101,7 +101,7 @@ U4 NMOS 3 5 6
 \#\# END_SIMULATION  
 
 
-![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/(ΑΒ+C)'.png)
+![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/(ΑΒ+C)'.png)  
 \#\# RAILS
 VCC 7 ; GND 2
 \#\# INPUTS
