@@ -69,8 +69,41 @@ To αριστερό κύκλωμα είναι η γνωστή NOR, δηλαδή 
 
 
 ![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/NOR.png)  
+\#\# RAILS  
+VCC 1 ; GND 6  
+\#\# INPUTS  
+2 ; 3  
+\#\# OUTPUTS  
+5  
+\#\# NETLIST  
+U1 PMOS 2 1 4  
+U2 PMOS 3 4 5  
+U3 NMOS 2 5 6  
+U4 NMOS 3 5 6  
+\#\# TESTBENCH  
+\#\# TEST_IN  
+2 ; 3  
+\#\# TEST_OUT  
+5  
+\#\# TEST_VECTORS  
+0 ; 0  
+\#\# SIMULATE  
+\#\# TEST_VECTORS  
+0 ; 1  
+\#\# SIMULATE  
+\#\# TEST_VECTORS  
+1 ; 0  
+\#\# SIMULATE  
+\#\# TEST_VECTORS  
+1 ; 1  
+\#\# SIMULATE  
+\#\# END_TEST  
+\#\# END_SIMULATION  
+
 
 ![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/(ΑΒ+C)'.png)  
+
+
 \#\# RAILS
 VCC 7 ; GND 2
 \#\# INPUTS
