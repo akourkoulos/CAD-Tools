@@ -9,3 +9,4 @@ graph coloring ώστε να καθορίστεί η λειτουργικότη�
 
 !(https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/transistors.png)
 ![alt text]https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/transistors.png?raw=true)
+![plot](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/transistors.png)
