@@ -29,39 +29,30 @@ coloring για τον σκοπό αυτό, με τιμές{0,1,Χ,Ζ,SC}.
 ## FORMAT ΕΙΣΟΔΟΥ
 Το format του αρχείου εισόδου είναι το εξής (ASCII file):
 
-\#\# RAILS
-{VCC/GND} {NODE_NUMBER} (`;`)  {VCC/GND} {NODE_NUMBER}
-
-\#\# INPUTS
-{NODE_NUMBER} (`;`) {NODE_NUMBER} (`;`)
-{NODE_NUMBER}
-
-## OUTPUTS
+\#\# RAILS  
+{VCC/GND} {NODE_NUMBER} ;  {VCC/GND} {NODE_NUMBER}  
+\#\# INPUTS  
 {NODE_NUMBER} ; {NODE_NUMBER} ;
 {NODE_NUMBER}
-
-## NETLIST
-U[000-999],{NMOS,PMOS},{GATE_NODE},{P_SOURCE_NODE/N_DRAIN_NODE}, {P_DRAIN_NODE/N_SOURCE_NODE}
-
-## TESTBENCH
-
-## TEST_IN
+\#\# OUTPUTS  
 {NODE_NUMBER} ; {NODE_NUMBER} ;
-{NODE_NUMBER}
-
-## TEST_OUT
+{NODE_NUMBER}  
+\#\# NETLIST  
+U[000-999],{NMOS,PMOS},{GATE_NODE},{P_SOURCE_NODE/N_DRAIN_NODE}, {P_DRAIN_NODE/N_SOURCE_NODE}  
+\#\# TESTBENCH  
+\#\# TEST_IN  
 {NODE_NUMBER} ; {NODE_NUMBER} ;
-{NODE_NUMBER}
-
-## TEST_VECTORS
-{0/1} ; {0/1}; … ;
-
-## SIMULATE
-…
-## TEST_VECTORS
-{0/1} ; {0/1}; … ;
-
-## SIMULATE}
-…
-## END_TEST
-## END_SIMULATION`
+{NODE_NUMBER}  
+\#\# TEST_OUT  
+{NODE_NUMBER} ; {NODE_NUMBER} ;
+{NODE_NUMBER}  
+\#\# TEST_VECTORS  
+{0/1} ; {0/1}; … ;  
+\#\# SIMULATE  
+…  
+\#\# TEST_VECTORS  
+{0/1} ; {0/1}; … ;  
+\#\# SIMULATE  
+…  
+\#\# END_TEST  
+\#\# END_SIMULATION`  
