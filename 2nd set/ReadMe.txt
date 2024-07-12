@@ -10,3 +10,6 @@ graph coloring ώστε να καθορίστεί η λειτουργικότη�
 ![alt text](https://github.com/akourkoulos/CAD-Tools/blob/main/2nd%20set/images/transistors.png)  
 
 
+-ygiygig
+-hjhjh
+-iuiui
