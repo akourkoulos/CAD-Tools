@@ -29,10 +29,10 @@ coloring για τον σκοπό αυτό, με τιμές{0,1,Χ,Ζ,SC}.
 ## FORMAT ΕΙΣΟΔΟΥ
 Το format του αρχείου εισόδου είναι το εξής (ASCII file):
 
-'## RAILS
-{VCC/GND} {NODE_NUMBER} ;  {VCC/GND} {NODE_NUMBER}'
+`## RAILS
+{VCC/GND} {NODE_NUMBER} ;  {VCC/GND} {NODE_NUMBER}
 
-'## INPUTS
+`## INPUTS
 {NODE_NUMBER} ; {NODE_NUMBER} ;
 {NODE_NUMBER}
 
